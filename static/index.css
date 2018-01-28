@@ -1,0 +1,615 @@
+#editor {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 16px;
+}
+#editor textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+.btn-parser {
+    margin-bottom: 16px;
+}
+
+
+.tab {
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+
+
+
+
+
+.parser
+{
+    width: 100%;/*1180px;*/
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 3px;
+    position: relative;
+}
+#main {
+    margin-bottom: 16px;
+    border: 1px solid #d7d7d7;
+}
+
+/* ============================== css for panels ===================== */
+.subPan div
+{
+    width: 32px;
+    height: 32px;
+    margin: 3px 0 0 3px;
+    border: 1px solid #d7d7d7;
+    float: left;
+}
+.subPan div:hover
+{
+    background-color: #d7d7d7;
+    cursor: pointer;
+}
+.subPan
+{
+    white-space:nowrap;
+    border-right: #d7d7d7 solid 1px;
+    float: left;
+    margin-right: 5px;
+    padding-right: 8px;
+}
+.lastSubPan
+{
+    border-right: none;
+}
+
+#pan-0 > div > div {background-image: url("/static/images/0.png");}
+#pan-1 > div > div {background-image: url("/static/images/1.png");}
+#pan-2 > div > div {background-image: url("/static/images/2.png");}
+#pan-3 > div > div {background-image: url("/static/images/3.png");}
+#pan-4 > div > div {background-image: url("/static/images/4.png");}
+#pan-5 > div > div {background-image: url("/static/images/5.png");}
+#pan-6 > div > div {background-image: url("/static/images/6.png");}
+#pan-7 > div > div {background-image: url("/static/images/7.png");}
+#pan-8 > div > div {background-image: url("/static/images/8.png");}
+#pan-9 > div > div {background-image: url("/static/images/9.png");}
+#pan-10 > div > div {background-image: url("/static/images/10.png");}
+
+#subPan-3-0 div {width: 96px;}
+#subPan-3-1 div {width: 64px;}
+#subPan-6-2 div {width: 48px;}
+#subPan-0-1 div#icon-0-1-0 {width: 48px}
+#subPan-0-1 div#icon-0-1-1 {width: 48px}
+
+/* ============================== 瀛愰潰鏉垮搴� ============================== */
+#subPan-0-0 {width:27%;} /*==5*37px==*/
+#subPan-0-1 {width:14%;} /*==3*37px==*/
+#subPan-0-2 {width:14%;} /*==3*37px==*/
+#subPan-1-0 {width:23%;} /*==6*37px==*/
+#subPan-1-1 {width:50%;} /*==15*37px==*/
+#subPan-1-2 {width:10%;} /*==2*37px==*/
+#subPan-2-0 {width:39%;} /*==11*37px==*/
+#subPan-2-1 {width:14%;} /*==4*37px==*/
+#subPan-2-2 {width:14%;} /*==4*37px==*/
+#subPan-3-0 {width:28%;} /*==3*101px==*/
+#subPan-3-1 {width:67%;} /*==12*69px==*/
+#subPan-4-0 {width:60%;} /*==7*37px==*/
+#subPan-4-1 {width:25%;} /*==3*37px==*/
+#subPan-5-0 {width:50%;} /*==10*37px==*/
+#subPan-5-1 {width:43%;} /*==8*37px==*/
+/*#subPan-5-2 {width:6.49%;} *//*==2*37px==*/
+#subPan-6-0 {width:53%;} /*==16*37px==*/
+#subPan-6-1 {width:8%;} /*==2*37px==*/
+#subPan-6-2 {width:16%;} /*==3*53px==*/
+#subPan-7-0 {width:30%;} /*==9*37px==*/
+#subPan-7-1 {width:27%;} /*==8*37px==*/
+#subPan-7-2 {width:24%;} /*==7*37px==*/
+#subPan-7-3 {width:11%;} /*==3*37px==*/
+#subPan-8-0 {width:37%;} /*==11*37px==*/
+#subPan-8-1 {width:37%;} /*==11*37px==*/
+#subPan-8-2 {width:9%;} /*==2*37px==*/
+#subPan-9-0 {width:95%;} /*==28*37px==*/
+#subPan-10-0 {width:90%;} /*==26*37px==*/
+
+/* ============================== icon鑳屾櫙鍥剧墖浣嶇疆 ============================== */
+#icon-0-0-0 {background-position: 0px 0px;}
+/*#icon-0-0-1 {background-position: -32px 0px;}*/
+/*#icon-0-0-2 {background-position: -64px 0px;}*/
+#icon-0-0-1 {background-position: -96px 0px;}
+/*#icon-0-0-4 {background-position: -128px 0px;}*/
+#icon-0-0-2 {background-position: -160px 0px;}
+#icon-0-0-3 {background-position: -192px 0px;}
+#icon-0-0-4 {background-position: -224px 0px;}
+#icon-0-0-5 {background-position: -256px 0px;}
+#icon-0-0-6 {background-position: -288px 0px;}
+#icon-0-0-7 {background-position: -320px 0px;}
+#icon-0-0-8 {background-position: -352px 0px;}
+#icon-0-0-9 {background-position: -384px 0px;}
+#icon-0-0-10 {background-position: -416px 0px;}
+#icon-0-1-0 {background-position: -1168px 0px;}
+#icon-0-1-1 {background-position: -1216px 0px;}
+#icon-0-1-2 {background-position: -1264px 0px;}
+#icon-0-1-3 {background-position: -1296px 0px;}
+#icon-0-2-0 {background-position: -1328px 0px;}
+/*#icon-0-2-1 {background-position: -1360px 0px;}*/
+#icon-0-2-1 {background-position: -1392px 0px;}
+/*#icon-0-2-3 {background-position: -1424px 0px;}*/
+#icon-0-2-2 {background-position: -1456px 0px;}
+#icon-0-2-3 {background-position: -1488px 0px;}
+#icon-0-2-4 {background-position: -1520px 0px;}
+#icon-0-2-5 {background-position: -1552px 0px;}
+
+#icon-1-0-0 {background-position: 0px 0px;}
+#icon-1-0-1 {background-position: -32px 0px;}
+#icon-1-0-2 {background-position: -64px 0px;}
+#icon-1-0-3 {background-position: -96px 0px;}
+#icon-1-0-4 {background-position: -128px 0px;}
+#icon-1-0-5 {background-position: -160px 0px;}
+#icon-1-0-6 {background-position: -192px 0px;}
+#icon-1-0-7 {background-position: -224px 0px;}
+#icon-1-0-8 {background-position: -256px 0px;}
+#icon-1-0-9 {background-position: -288px 0px;}
+#icon-1-0-10 {background-position: -320px 0px;}
+#icon-1-0-11 {background-position: -352px 0px;}
+#icon-1-1-0 {background-position: -384px 0px;}
+#icon-1-1-1 {background-position: -416px 0px;}
+#icon-1-1-2 {background-position: -448px 0px;}
+#icon-1-1-3 {background-position: -480px 0px;}
+#icon-1-1-4 {background-position: -512px 0px;}
+#icon-1-1-5 {background-position: -544px 0px;}
+#icon-1-1-6 {background-position: -576px 0px;}
+#icon-1-1-7 {background-position: -608px 0px;}
+#icon-1-1-8 {background-position: -640px 0px;}
+#icon-1-1-9 {background-position: -672px 0px;}
+#icon-1-1-10 {background-position: -704px 0px;}
+#icon-1-1-11 {background-position: -736px 0px;}
+#icon-1-1-12 {background-position: -768px 0px;}
+#icon-1-1-13 {background-position: -800px 0px;}
+#icon-1-1-14 {background-position: -832px 0px;}
+#icon-1-1-15 {background-position: -864px 0px;}
+#icon-1-1-16 {background-position: -896px 0px;}
+#icon-1-1-17 {background-position: -928px 0px;}
+#icon-1-1-18 {background-position: -960px 0px;}
+#icon-1-1-19 {background-position: -992px 0px;}
+#icon-1-1-20 {background-position: -1024px 0px;}
+#icon-1-1-21 {background-position: -1056px 0px;}
+#icon-1-1-22 {background-position: -1088px 0px;}
+#icon-1-1-23 {background-position: -1120px 0px;}
+#icon-1-1-24 {background-position: -1152px 0px;}
+#icon-1-1-25 {background-position: -1184px 0px;}
+#icon-1-1-26 {background-position: -1216px 0px;}
+#icon-1-1-27 {background-position: -1248px 0px;}
+#icon-1-1-28 {background-position: -1280px 0px;}
+#icon-1-1-29 {background-position: -1312px 0px;}
+#icon-1-2-0 {background-position: -1344px 0px;}
+#icon-1-2-1 {background-position: -1376px 0px;}
+#icon-1-2-2 {background-position: -1408px 0px;}
+#icon-1-2-3 {background-position: -1440px 0px;}
+
+#icon-2-0-0 {background-position: 0px 0px;}
+#icon-2-0-1 {background-position: -32px 0px;}
+#icon-2-0-2 {background-position: -64px 0px;}
+#icon-2-0-3 {background-position: -96px 0px;}
+#icon-2-0-4 {background-position: -128px 0px;}
+#icon-2-0-5 {background-position: -160px 0px;}
+#icon-2-0-6 {background-position: -192px 0px;}
+#icon-2-0-7 {background-position: -224px 0px;}
+#icon-2-0-8 {background-position: -256px 0px;}
+#icon-2-0-9 {background-position: -288px 0px;}
+#icon-2-0-10 {background-position: -320px 0px;}
+#icon-2-0-11 {background-position: -352px 0px;}
+#icon-2-0-12 {background-position: -384px 0px;}
+#icon-2-0-13 {background-position: -416px 0px;}
+#icon-2-0-14 {background-position: -448px 0px;}
+#icon-2-0-15 {background-position: -480px 0px;}
+#icon-2-0-16 {background-position: -512px 0px;}
+#icon-2-0-17 {background-position: -544px 0px;}
+#icon-2-0-18 {background-position: -576px 0px;}
+#icon-2-0-19 {background-position: -608px 0px;}
+#icon-2-0-20 {background-position: -640px 0px;}
+#icon-2-0-21 {background-position: -672px 0px;}
+#icon-2-1-0 {background-position: -704px 0px;}
+#icon-2-1-1 {background-position: -736px 0px;}
+#icon-2-1-2 {background-position: -768px 0px;}
+/*#icon-2-1-3 {background-position: -800px 0px;}*/
+#icon-2-1-3 {background-position: -832px 0px;}
+#icon-2-1-4 {background-position: -864px 0px;}
+#icon-2-1-5 {background-position: -896px 0px;}
+#icon-2-1-6 {background-position: -928px 0px;}
+#icon-2-2-0 {background-position: -1408px 0px;}
+#icon-2-2-1 {background-position: -1440px 0px;}
+#icon-2-2-2 {background-position: -1472px 0px;}
+#icon-2-2-3 {background-position: -1504px 0px;}
+#icon-2-2-4 {background-position: -1568px 0px;}
+#icon-2-2-5 {background-position: -1600px 0px;}
+#icon-2-2-6 {background-position: -1632px 0px;}
+
+#icon-3-0-0 {background-position: 0px 0px;}
+#icon-3-0-1 {background-position: -96px 0px;}
+#icon-3-0-2 {background-position: -192px 0px;}
+#icon-3-0-3 {background-position: -288px 0px;}
+#icon-3-0-4 {background-position: -384px 0px;}
+#icon-3-0-5 {background-position: -480px 0px;}
+#icon-3-1-0 {background-position: -576px 0px;}
+#icon-3-1-1 {background-position: -640px 0px;}
+#icon-3-1-2 {background-position: -704px 0px;}
+#icon-3-1-3 {background-position: -768px 0px;}
+#icon-3-1-4 {background-position: -832px 0px;}
+#icon-3-1-5 {background-position: -896px 0px;}
+#icon-3-1-6 {background-position: -960px 0px;}
+#icon-3-1-7 {background-position: -1024px 0px;}
+#icon-3-1-8 {background-position: -1088px 0px;}
+#icon-3-1-9 {background-position: -1152px 0px;}
+#icon-3-1-10 {background-position: -1216px 0px;}
+#icon-3-1-11 {background-position: -1280px 0px;}
+#icon-3-1-12 {background-position: -1344px 0px;}
+#icon-3-1-13 {background-position: -1408px 0px;}
+#icon-3-1-14 {background-position: -1472px 0px;}
+#icon-3-1-15 {background-position: -1536px 0px;}
+#icon-3-1-16 {background-position: -1600px 0px;}
+#icon-3-1-17 {background-position: -1664px 0px;}
+#icon-3-1-18 {background-position: -1728px 0px;}
+#icon-3-1-19 {background-position: -1792px 0px;}
+#icon-3-1-20 {background-position: -1856px 0px;}
+#icon-3-1-21 {background-position: -1920px 0px;}
+#icon-3-1-22 {background-position: -1984px 0px;}
+#icon-3-1-23 {background-position: -2048px 0px;}
+
+#icon-4-0-0 {background-position: -0px 0px;}
+#icon-4-0-1 {background-position: -32px 0px;}
+#icon-4-0-2 {background-position: -64px 0px;}
+/*#icon-4-0-3 {background-position: -96px 0px;}*/
+#icon-4-0-3 {background-position: -128px 0px;}
+#icon-4-0-4 {background-position: -160px 0px;}
+#icon-4-0-5 {background-position: -192px 0px;}
+#icon-4-0-6 {background-position: -224px 0px;}
+#icon-4-0-7 {background-position: -256px 0px;}
+#icon-4-0-8 {background-position: -288px 0px;}
+#icon-4-0-9 {background-position: -320px 0px;}
+/*#icon-4-0-11 {background-position: -352px 0px;}*/
+#icon-4-0-10 {background-position: -384px 0px;}
+#icon-4-0-11 {background-position: -416px 0px;}
+#icon-4-0-12 {background-position: -448px 0px;}
+/*#icon-4-0-15 {background-position: -480px 0px;}*/
+#icon-4-1-0 {background-position: -512px 0px;}
+#icon-4-1-1 {background-position: -544px 0px;}
+#icon-4-1-2 {background-position: -576px 0px;}
+#icon-4-1-3 {background-position: -608px 0px;}
+#icon-4-1-4 {background-position: -640px 0px;}
+#icon-4-1-5 {background-position: -672px 0px;}
+
+#icon-5-0-0 {background-position: -0px 0px;}
+#icon-5-0-1 {background-position: -32px 0px;}
+#icon-5-0-2 {background-position: -64px 0px;}
+#icon-5-0-3 {background-position: -96px 0px;}
+#icon-5-0-4 {background-position: -128px 0px;}
+#icon-5-0-5 {background-position: -160px 0px;}
+#icon-5-0-6 {background-position: -192px 0px;}
+#icon-5-0-7 {background-position: -224px 0px;}
+#icon-5-0-8 {background-position: -256px 0px;}
+#icon-5-0-9 {background-position: -288px 0px;}
+#icon-5-0-10 {background-position: -320px 0px;}
+#icon-5-0-11 {background-position: -352px 0px;}
+#icon-5-0-12 {background-position: -384px 0px;}
+#icon-5-0-13 {background-position: -416px 0px;}
+#icon-5-0-14 {background-position: -448px 0px;}
+#icon-5-0-15 {background-position: -480px 0px;}
+#icon-5-0-16 {background-position: -512px 0px;}
+#icon-5-0-17 {background-position: -544px 0px;}
+#icon-5-0-18 {background-position: -576px 0px;}
+#icon-5-0-19 {background-position: -608px 0px;}
+#icon-5-1-0 {background-position: -640px 0px;}
+#icon-5-1-1 {background-position: -672px 0px;}
+#icon-5-1-2 {background-position: -704px 0px;}
+#icon-5-1-3 {background-position: -736px 0px;}
+#icon-5-1-4 {background-position: -768px 0px;}
+#icon-5-1-5 {background-position: -800px 0px;}
+#icon-5-1-6 {background-position: -832px 0px;}
+#icon-5-1-7 {background-position: -864px 0px;}
+#icon-5-1-8 {background-position: -896px 0px;}
+#icon-5-1-9 {background-position: -928px 0px;}
+#icon-5-1-10 {background-position: -960px 0px;}
+#icon-5-1-11 {background-position: -992px 0px;}
+#icon-5-1-12 {background-position: -1024px 0px;}
+#icon-5-1-13 {background-position: -1056px 0px;}
+#icon-5-1-14 {background-position: -1088px 0px;}
+#icon-5-1-15 {background-position: -1120px 0px;}
+/*#icon-5-2-0 {background-position: -1152px 0px;}*/
+/*#icon-5-2-1 {background-position: -1184px 0px;}*/
+/*#icon-5-2-2 {background-position: -1216px 0px;}*/
+/*#icon-5-2-3 {background-position: -1248px 0px;}*/
+
+#icon-6-0-0 {background-position: -0px 0px;}
+#icon-6-0-1 {background-position: -32px 0px;}
+#icon-6-0-2 {background-position: -64px 0px;}
+#icon-6-0-3 {background-position: -96px 0px;}
+#icon-6-0-4 {background-position: -128px 0px;}
+#icon-6-0-5 {background-position: -160px 0px;}
+#icon-6-0-6 {background-position: -192px 0px;}
+#icon-6-0-7 {background-position: -224px 0px;}
+#icon-6-0-8 {background-position: -256px 0px;}
+#icon-6-0-9 {background-position: -288px 0px;}
+#icon-6-0-10 {background-position: -320px 0px;}
+#icon-6-0-11 {background-position: -352px 0px;}
+#icon-6-0-12 {background-position: -384px 0px;}
+#icon-6-0-13 {background-position: -416px 0px;}
+#icon-6-0-14 {background-position: -448px 0px;}
+#icon-6-0-15 {background-position: -480px 0px;}
+/*#icon-6-0-16 {background-position: -512px 0px;}*/
+#icon-6-0-16 {background-position: -544px 0px;}
+#icon-6-0-17 {background-position: -576px 0px;}
+#icon-6-0-18 {background-position: -608px 0px;}
+#icon-6-0-19 {background-position: -640px 0px;}
+#icon-6-0-20 {background-position: -672px 0px;}
+#icon-6-0-21 {background-position: -704px 0px;}
+#icon-6-0-22 {background-position: -736px 0px;}
+#icon-6-0-23 {background-position: -768px 0px;}
+#icon-6-0-24 {background-position: -800px 0px;}
+#icon-6-0-25 {background-position: -832px 0px;}
+#icon-6-0-26 {background-position: -864px 0px;}
+#icon-6-0-27 {background-position: -896px 0px;}
+#icon-6-0-28 {background-position: -928px 0px;}
+#icon-6-0-29 {background-position: -960px 0px;}
+#icon-6-0-30 {background-position: -992px 0px;}
+#icon-6-1-0 {background-position: -1024px 0px;}
+#icon-6-1-1 {background-position: -1056px 0px;}
+#icon-6-1-2 {background-position: -1088px 0px;}
+#icon-6-1-3 {background-position: -1120px 0px;}
+#icon-6-2-0 {background-position: -1152px 0px;}
+#icon-6-2-1 {background-position: -1200px 0px;}
+#icon-6-2-2 {background-position: -1248px 0px;}
+/*#icon-6-2-3 {background-position: -1296px 0px;}*/
+#icon-6-2-3 {background-position: -1344px 0px;}
+#icon-6-2-4 {background-position: -1392px 0px;}
+#icon-6-2-5 {background-position: -1440px 0px;}
+
+#icon-7-0-0 {background-position: -0px 0px;}
+#icon-7-0-1 {background-position: -32px 0px;}
+#icon-7-0-2 {background-position: -64px 0px;}
+#icon-7-0-3 {background-position: -96px 0px;}
+#icon-7-0-4 {background-position: -128px 0px;}
+#icon-7-0-5 {background-position: -160px 0px;}
+/*#icon-7-0-6 {background-position: -192px 0px;}*/
+/*#icon-7-0-7 {background-position: -224px 0px;}*/
+#icon-7-0-6 {background-position: -256px 0px;}
+#icon-7-0-7 {background-position: -288px 0px;}
+#icon-7-0-8 {background-position: -320px 0px;}
+/*#icon-7-0-11 {background-position: -352px 0px;}*/
+#icon-7-0-9 {background-position: -384px 0px;}
+#icon-7-0-10 {background-position: -416px 0px;}
+#icon-7-0-11 {background-position: -448px 0px;}
+#icon-7-0-12 {background-position: -480px 0px;}
+#icon-7-0-13 {background-position: -512px 0px;}
+#icon-7-0-14 {background-position: -544px 0px;}
+#icon-7-0-15 {background-position: -576px 0px;}
+#icon-7-0-16 {background-position: -608px 0px;}
+#icon-7-1-0 {background-position: -640px 0px;}
+#icon-7-1-1 {background-position: -672px 0px;}
+#icon-7-1-2 {background-position: -704px 0px;}
+#icon-7-1-3 {background-position: -736px 0px;}
+#icon-7-1-4 {background-position: -768px 0px;}
+#icon-7-1-5 {background-position: -800px 0px;}
+#icon-7-1-6 {background-position: -832px 0px;}
+#icon-7-1-7 {background-position: -864px 0px;}
+#icon-7-1-8 {background-position: -896px 0px;}
+#icon-7-1-9 {background-position: -928px 0px;}
+#icon-7-1-10 {background-position: -960px 0px;}
+#icon-7-1-11 {background-position: -992px 0px;}
+#icon-7-1-12 {background-position: -1024px 0px;}
+#icon-7-1-13 {background-position: -1056px 0px;}
+#icon-7-1-14 {background-position: -1088px 0px;}
+#icon-7-1-15 {background-position: -1120px 0px;}
+#icon-7-2-0 {background-position: -1152px 0px;}
+#icon-7-2-1 {background-position: -1184px 0px;}
+/*#icon-7-2-2 {background-position: -1216px 0px;}*/
+/*#icon-7-2-3 {background-position: -1248px 0px;}*/
+#icon-7-2-2 {background-position: -1280px 0px;}
+#icon-7-2-3 {background-position: -1312px 0px;}
+#icon-7-2-4 {background-position: -1344px 0px;}
+#icon-7-2-5 {background-position: -1376px 0px;}
+#icon-7-2-6 {background-position: -1408px 0px;}
+#icon-7-2-7 {background-position: -1440px 0px;}
+#icon-7-2-8 {background-position: -1472px 0px;}
+#icon-7-2-9 {background-position: -1504px 0px;}
+#icon-7-2-10 {background-position: -1536px 0px;}
+#icon-7-2-11 {background-position: -1568px 0px;}
+#icon-7-2-12 {background-position: -1600px 0px;}
+#icon-7-3-0 {background-position: -1632px 0px;}
+#icon-7-3-1 {background-position: -1664px 0px;}
+#icon-7-3-2 {background-position: -1696px 0px;}
+#icon-7-3-3 {background-position: -1728px 0px;}
+#icon-7-3-4 {background-position: -1760px 0px;}
+#icon-7-3-5 {background-position: -1792px 0px;}
+
+#icon-8-0-0 {background-position: -0px 0px;}
+#icon-8-0-1 {background-position: -32px 0px;}
+#icon-8-0-2 {background-position: -64px 0px;}
+#icon-8-0-3 {background-position: -96px 0px;}
+/*#icon-8-0-4 {background-position: -128px 0px;}*/
+#icon-8-0-4 {background-position: -160px 0px;}
+#icon-8-0-5 {background-position: -192px 0px;}
+#icon-8-0-6 {background-position: -224px 0px;}
+#icon-8-0-7 {background-position: -256px 0px;}
+#icon-8-0-8 {background-position: -288px 0px;}
+#icon-8-0-9 {background-position: -320px 0px;}
+#icon-8-0-10 {background-position: -352px 0px;}
+#icon-8-0-11 {background-position: -384px 0px;}
+#icon-8-0-12 {background-position: -416px 0px;}
+#icon-8-0-13 {background-position: -448px 0px;}
+/*#icon-8-0-15 {background-position: -480px 0px;}*/
+#icon-8-0-14 {background-position: -512px 0px;}
+#icon-8-0-15 {background-position: -544px 0px;}
+#icon-8-0-16 {background-position: -576px 0px;}
+#icon-8-0-17 {background-position: -608px 0px;}
+#icon-8-0-18 {background-position: -640px 0px;}
+#icon-8-0-19 {background-position: -672px 0px;}
+#icon-8-0-20 {background-position: -704px 0px;}
+/*#icon-8-0-23 {background-position: -736px 0px;}*/
+/*#icon-8-0-24 {background-position: -768px 0px;}*/
+#icon-8-0-21 {background-position: -800px 0px;}
+#icon-8-1-0 {background-position: -832px 0px;}
+/*#icon-8-1-1 {background-position: -864px 0px;}*/
+#icon-8-1-1 {background-position: -896px 0px;}
+#icon-8-1-2 {background-position: -928px 0px;}
+#icon-8-1-3 {background-position: -960px 0px;}
+#icon-8-1-4 {background-position: -992px 0px;}
+#icon-8-1-5 {background-position: -1024px 0px;}
+#icon-8-1-6 {background-position: -1056px 0px;}
+#icon-8-1-7 {background-position: -1088px 0px;}
+#icon-8-1-8 {background-position: -1120px 0px;}
+#icon-8-1-9 {background-position: -1152px 0px;}
+#icon-8-1-10 {background-position: -1184px 0px;}
+#icon-8-1-11 {background-position: -1216px 0px;}
+#icon-8-1-12 {background-position: -1248px 0px;}
+#icon-8-1-13 {background-position: -1280px 0px;}
+#icon-8-1-14 {background-position: -1312px 0px;}
+#icon-8-1-15 {background-position: -1344px 0px;}
+#icon-8-1-16 {background-position: -1376px 0px;}
+#icon-8-1-17 {background-position: -1408px 0px;}
+#icon-8-1-18 {background-position: -1440px 0px;}
+#icon-8-1-19 {background-position: -1472px 0px;}
+#icon-8-1-20 {background-position: -1504px 0px;}
+#icon-8-2-0 {background-position: -1568px 0px;}
+#icon-8-2-1 {background-position: -1600px 0px;}
+#icon-8-2-2 {background-position: -1632px 0px;}
+#icon-8-2-3 {background-position: -1664px 0px;}
+
+#icon-9-0-0 {background-position: -0px 0px;}
+#icon-9-0-1 {background-position: -32px 0px;}
+#icon-9-0-2 {background-position: -64px 0px;}
+#icon-9-0-3 {background-position: -96px 0px;}
+#icon-9-0-4 {background-position: -128px 0px;}
+#icon-9-0-5 {background-position: -160px 0px;}
+#icon-9-0-6 {background-position: -192px 0px;}
+#icon-9-0-7 {background-position: -224px 0px;}
+#icon-9-0-8 {background-position: -256px 0px;}
+#icon-9-0-9 {background-position: -288px 0px;}
+#icon-9-0-10 {background-position: -320px 0px;}
+#icon-9-0-11 {background-position: -352px 0px;}
+#icon-9-0-12 {background-position: -384px 0px;}
+#icon-9-0-13 {background-position: -416px 0px;}
+#icon-9-0-14 {background-position: -448px 0px;}
+#icon-9-0-15 {background-position: -480px 0px;}
+#icon-9-0-16 {background-position: -512px 0px;}
+/*#icon-9-0-17 {background-position: -544px 0px;}*/
+#icon-9-0-17 {background-position: -576px 0px;}
+/*#icon-9-0-19 {background-position: -608px 0px;}*/
+#icon-9-0-18 {background-position: -640px 0px;}
+#icon-9-0-19 {background-position: -672px 0px;}
+#icon-9-0-20 {background-position: -704px 0px;}
+/*#icon-9-0-23 {background-position: -736px 0px;}*/
+/*#icon-9-0-24 {background-position: -768px 0px;}*/
+#icon-9-0-21 {background-position: -800px 0px;}
+#icon-9-0-22 {background-position: -832px 0px;}
+#icon-9-0-23 {background-position: -864px 0px;}
+#icon-9-0-24 {background-position: -896px 0px;}
+#icon-9-0-25 {background-position: -928px 0px;}
+/*#icon-9-0-30 {background-position: -960px 0px;}*/
+#icon-9-0-26 {background-position: -992px 0px;}
+#icon-9-0-27 {background-position: -1024px 0px;}
+#icon-9-0-28 {background-position: -1056px 0px;}
+#icon-9-0-29 {background-position: -1088px 0px;}
+#icon-9-0-30 {background-position: -1120px 0px;}
+#icon-9-0-31 {background-position: -1152px 0px;}
+#icon-9-0-32 {background-position: -1184px 0px;}
+#icon-9-0-33 {background-position: -1216px 0px;}
+#icon-9-0-34 {background-position: -1248px 0px;}
+#icon-9-0-35 {background-position: -1280px 0px;}
+#icon-9-0-36 {background-position: -1312px 0px;}
+#icon-9-0-37 {background-position: -1344px 0px;}
+#icon-9-0-38 {background-position: -1376px 0px;}
+#icon-9-0-39 {background-position: -1408px 0px;}
+#icon-9-0-40 {background-position: -1440px 0px;}
+#icon-9-0-41 {background-position: -1472px 0px;}
+#icon-9-0-42 {background-position: -1504px 0px;}
+#icon-9-0-43 {background-position: -1536px 0px;}
+#icon-9-0-44 {background-position: -1568px 0px;}
+#icon-9-0-45 {background-position: -1600px 0px;}
+#icon-9-0-46 {background-position: -1632px 0px;}
+#icon-9-0-47 {background-position: -1664px 0px;}
+/*#icon-9-0-53 {background-position: -1696px 0px;}*/
+#icon-9-0-48 {background-position: -1728px 0px;}
+#icon-9-0-49 {background-position: -1760px 0px;}
+#icon-9-0-50 {background-position: -1792px 0px;}
+#icon-9-0-51 {background-position: -1824px 0px;}
+#icon-9-0-52 {background-position: -1856px 0px;}
+#icon-9-0-53 {background-position: -1888px 0px;}
+#icon-9-0-54 {background-position: -1920px 0px;}
+#icon-9-0-55 {background-position: -1952px 0px;}
+
+#icon-10-0-0 {background-position: -0px 0px;}
+#icon-10-0-1 {background-position: -32px 0px;}
+#icon-10-0-2 {background-position: -64px 0px;}
+#icon-10-0-3 {background-position: -96px 0px;}
+#icon-10-0-4 {background-position: -128px 0px;}
+#icon-10-0-5 {background-position: -160px 0px;}
+#icon-10-0-6 {background-position: -192px 0px;}
+#icon-10-0-7 {background-position: -224px 0px;}
+#icon-10-0-8 {background-position: -256px 0px;}
+#icon-10-0-9 {background-position: -288px 0px;}
+#icon-10-0-10 {background-position: -320px 0px;}
+#icon-10-0-11 {background-position: -352px 0px;}
+#icon-10-0-12 {background-position: -384px 0px;}
+#icon-10-0-13 {background-position: -416px 0px;}
+#icon-10-0-14 {background-position: -448px 0px;}
+#icon-10-0-15 {background-position: -480px 0px;}
+#icon-10-0-16 {background-position: -512px 0px;}
+#icon-10-0-17 {background-position: -544px 0px;}
+#icon-10-0-18 {background-position: -576px 0px;}
+#icon-10-0-19 {background-position: -608px 0px;}
+#icon-10-0-20 {background-position: -640px 0px;}
+#icon-10-0-21 {background-position: -672px 0px;}
+#icon-10-0-22 {background-position: -704px 0px;}
+#icon-10-0-23 {background-position: -736px 0px;}
+#icon-10-0-24 {background-position: -768px 0px;}
+#icon-10-0-25 {background-position: -800px 0px;}
+#icon-10-0-26 {background-position: -832px 0px;}
+#icon-10-0-27 {background-position: -864px 0px;}
+#icon-10-0-28 {background-position: -896px 0px;}
+#icon-10-0-29 {background-position: -928px 0px;}
+#icon-10-0-30 {background-position: -960px 0px;}
+#icon-10-0-31 {background-position: -992px 0px;}
+#icon-10-0-32 {background-position: -1024px 0px;}
+#icon-10-0-33 {background-position: -1056px 0px;}
+#icon-10-0-34 {background-position: -1088px 0px;}
+#icon-10-0-35 {background-position: -1120px 0px;}
+#icon-10-0-36 {background-position: -1152px 0px;}
+#icon-10-0-37 {background-position: -1184px 0px;}
+#icon-10-0-38 {background-position: -1216px 0px;}
+#icon-10-0-39 {background-position: -1248px 0px;}
+#icon-10-0-40 {background-position: -1280px 0px;}
+#icon-10-0-41 {background-position: -1312px 0px;}
+#icon-10-0-42 {background-position: -1344px 0px;}
+#icon-10-0-43 {background-position: -1376px 0px;}
+#icon-10-0-44 {background-position: -1408px 0px;}
+#icon-10-0-45 {background-position: -1440px 0px;}
+#icon-10-0-46 {background-position: -1472px 0px;}
+#icon-10-0-47 {background-position: -1504px 0px;}
+#icon-10-0-48 {background-position: -1536px 0px;}
+#icon-10-0-49 {background-position: -1568px 0px;}
+/*#icon-10-0-50 {background-position: -1600px 0px;}*/
+/*#icon-10-0-51 {background-position: -1632px 0px;}*/
+#icon-10-0-50 {background-position: -1664px 0px;}
+#icon-10-0-51 {background-position: -1696px 0px;}
+
+.fix
+{
+    *zoom:1;
+}
+.fix:after
+{
+    display:table;
+    content:'';
+    clear:both;
+}
+
+/*=================================== codemirror styles =========================================*/
+
+.CodeMirror-code > div:nth-child(even) pre{
+    background: rgba(0,0,0,0.05);
+}
+.CodeMirror-code > div:nth-child(odd) pre{
+    background: rgba(255,255,255,0.075);
+}
+.CodeMirror-code > div:hover{
+    background: #e8f2ff;
+}
